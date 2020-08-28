@@ -1,0 +1,131 @@
+:root {
+  --verdeOscuro: #00a2ba;
+  --verdeClaro: #00bab8;
+  --azulOscuro: #223d74;
+  --verdeMedio: #399fb7;
+}
+
+@font-face {
+  font-family: "latoblack";
+  src: url("../fonts/lato-black-webfont.woff2") format("woff2"),
+    url("../fonts/lato-black-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "latoheavy";
+  src: url("../fonts/lato-heavy-webfont.woff2") format("woff2"),
+    url("../fonts/lato-heavy-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "latomedium";
+  src: url("../fonts/lato-medium-webfont.woff2") format("woff2"),
+    url("../fonts/lato-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "latosemibold";
+  src: url("../fonts/lato-semibold-webfont.woff2") format("woff2"),
+    url("../fonts/lato-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: #00cdca;
+}
+
+#container {
+  width: 700px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.clear {
+  clear: both;
+}
+
+#container .wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+.titulo {
+  color: var(--azulOscuro);
+  font-size: 30pt;
+  font-family: "latoblack" !important;
+  line-height: 38px;
+  margin-bottom: 8px;
+}
+.subtitulo {
+  color: var(--verdeClaro);
+  font-size: 13pt;
+  margin: 0;
+  font-family: "latoblack";
+}
+.parrafo {
+  color: var(--verdeMedio);
+  font-size: 9pt;
+  width: 160px;
+  font-family: "latosemibold";
+}
+.btn-principal {
+  font-size: 9pt;
+  color: #fff;
+  background: var(--verdeOscuro);
+  width: 98px;
+  height: 20px;
+  padding: 5px 5px 20px 5px;
+  border-radius: 10px;
+  border: none;
+  font-family: "latomedium";
+}
+
+#menu-principal ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+#menu-principal ul li a {
+  font-size: 11pt;
+  color: var(--verdeOscuro);
+  text-decoration: none;
+  font-family: "latomedium";
+}
+
+#menu-principal .call-getstared {
+  font-size: 9.2pt;
+  background: var(--azulOscuro);
+  border: none;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "latomedium";
+}
+
+#logo {
+  font-family: "latoheavy";
+  font-size: 13pt;
+}
+
+.content-information {
+  width: 300px;
+  float: left;
+  position: relative;
+  background: url("../images/bg-divizq.png") 0 0 no-repeat;
+  display: inline-block;
+  padding: 25px 25px 20px 40px;
+}
+
+.content-image {
+  width: 300px;
+  width: 300px;
+  float: left;
+  position: relative;
+  display: inline-block;
+}
